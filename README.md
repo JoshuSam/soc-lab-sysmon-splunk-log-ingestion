@@ -114,3 +114,39 @@ Configure Splunk Enterprise to receive forwarded data from the Splunk Universal 
 #### Receiving Port 9997 Enabled
 
 ![Splunk Receiving Port 9997 Enabled](images/9997%20Enabled.png)
+## 📡 Task 3 – Splunk Universal Forwarder Setup
+
+### Objective
+
+Install the Splunk Universal Forwarder on Windows and configure it to send Sysmon event data to Splunk Enterprise.
+
+### Activities Performed
+
+- Installed the Splunk Universal Forwarder on Windows 11.
+- Selected the **Local System** account for the forwarder service.
+- Configured the receiving indexer as `127.0.0.1`.
+- Set the receiving port to **9997**.
+- Completed the forwarder installation successfully.
+- Verified that the forwarder was connected to Splunk Enterprise.
+
+### Skills Demonstrated
+
+- Splunk Universal Forwarder Installation
+- Windows Service Account Configuration
+- Forwarder-to-Indexer Configuration
+- Localhost Network Communication
+- Log Forwarding Setup
+
+### Screenshots
+
+#### Local System Service Account Selection
+
+![Local System Selection](images/Local%20System%20Selection.png)
+
+#### Universal Forwarder Installation Completed
+
+![Splunk Forwarder Installation Completion](images/Splunk%20Forwarder%20Installation%20Completion.png)
+
+#### Receiving Indexer Connection Verified
+
+![Receiver Index Connected](images/Receiver%20Index%20Connected.png)

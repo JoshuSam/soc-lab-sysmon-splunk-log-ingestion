@@ -322,3 +322,11 @@ Completing this lab strengthened my understanding of SIEM architecture, Windows 
 ## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
+## 👨‍💻 Author
+
+**Joshua Abraham Samuel**
+
+Aspiring SOC Analyst | Blue Team | Cybersecurity Enthusiast
+
+- LinkedIn: https://www.linkedin.com/in/joshuasamuel-soc
+- GitHub: https://github.com/JoshuSam

@@ -341,3 +341,10 @@ Future enhancements planned for this lab include:
 - Analysing DNS queries using Sysmon Event ID 22.
 - Mapping detections to the MITRE ATT&CK framework.
 - Expanding the lab with more endpoint detection scenarios.
+## 📈 Project Outcome
+
+This project demonstrates a complete Windows endpoint monitoring workflow using Sysmon, Splunk Universal Forwarder, and Splunk Enterprise.
+
+The lab successfully collected Sysmon telemetry, forwarded Windows event data over TCP port 9997, verified ingestion in Splunk, and investigated a Process Create event using SPL.
+
+Completing this project strengthened my practical understanding of SIEM deployment, log forwarding, Windows event monitoring, endpoint telemetry, and entry-level SOC investigation workflows.

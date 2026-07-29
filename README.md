@@ -191,3 +191,50 @@ index = main
 #### Sysmon `inputs.conf` Configuration
 
 ![Sysmon inputs.conf Configuration](images/Inputs.conf.png)
+## 🔍 Task 5 – Verify Sysmon Log Ingestion
+
+### Objective
+
+Verify that Sysmon events are successfully forwarded by the Splunk Universal Forwarder and indexed in Splunk Enterprise.
+
+### Activities Performed
+
+- Opened **Search & Reporting** in Splunk Enterprise.
+- Searched the `main` index for incoming events.
+- Used an SPL query to identify the available event source.
+- Confirmed that events were being received from:
+
+  `WinEventLog:Microsoft-Windows-Sysmon/Operational`
+
+- Verified that Sysmon events were indexed successfully.
+- Opened raw XML events to inspect detailed process and network activity.
+
+### SPL Queries
+
+```spl
+index=main
+| stats count by source
+| sort - count
+```
+
+```spl
+index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
+```
+
+### Skills Demonstrated
+
+- Splunk Search and Reporting
+- SPL Querying
+- Log Source Verification
+- Sysmon Event Analysis
+- Windows Endpoint Monitoring
+
+### Screenshots
+
+#### Sysmon Source Verification
+
+![Stats Count by Source](images/Stats%20Count%20by%20Source.png)
+
+#### Sysmon Events in Splunk
+
+![Sysmon Events in Splunk](images/Sysmon%20Events%20In%20Splunk.png)

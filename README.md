@@ -54,3 +54,39 @@ Splunk Enterprise
         ▼
 Search, Filtering and Event Analysis
 ```
+## 🖥️ Task 1 – Splunk Enterprise Setup
+
+### Objective
+
+Install Splunk Enterprise on Windows 11 and verify that the SIEM platform is accessible through the Splunk web interface.
+
+### Activities Performed
+
+- Installed Splunk Enterprise on the Windows 11 host.
+- Used the default installation directory.
+- Created the Splunk administrator account.
+- Confirmed that the installation completed successfully.
+- Accessed the Splunk login page through `http://localhost:8000`.
+- Signed in and verified that the Splunk Enterprise home page loaded correctly.
+
+### Skills Demonstrated
+
+- Splunk Enterprise Installation
+- Windows SIEM Setup
+- Administrator Account Configuration
+- Splunk Web Access
+- Basic Service Verification
+
+### Screenshots
+
+#### Splunk Enterprise Installation Completed
+
+![Splunk Enterprise Installation Completed](images/Splunk%20Installation%20Completed.png)
+
+#### Splunk Login Page
+
+![Splunk Enterprise Login Page](images/Splunk%20Login%20Page.png)
+
+#### Splunk Enterprise Home Page
+
+![Splunk Enterprise Home Page](images/Splunk%20Home%20Page.png)

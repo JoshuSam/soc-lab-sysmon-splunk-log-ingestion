@@ -330,3 +330,14 @@ Aspiring SOC Analyst | Blue Team | Cybersecurity Enthusiast
 
 - LinkedIn: https://www.linkedin.com/in/joshuasamuel-soc
 - GitHub: https://github.com/JoshuSam
+## 🚀 Future Improvements
+
+Future enhancements planned for this lab include:
+
+- Creating Splunk alerts for suspicious process activity.
+- Building dashboards for Sysmon event monitoring.
+- Writing additional SPL queries for PowerShell and command-line activity.
+- Monitoring network connections using Sysmon Event ID 3.
+- Analysing DNS queries using Sysmon Event ID 22.
+- Mapping detections to the MITRE ATT&CK framework.
+- Expanding the lab with more endpoint detection scenarios.

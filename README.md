@@ -150,3 +150,28 @@ Install the Splunk Universal Forwarder on Windows and configure it to send Sysmo
 #### Receiving Indexer Connection Verified
 
 ![Receiver Index Connected](images/Receiver%20Index%20Connected.png)
+## ⚙️ Task 4 – Sysmon Event Collection Configuration
+
+### Objective
+
+Configure the Splunk Universal Forwarder to collect events from the Sysmon Operational log and send them to Splunk Enterprise.
+
+### Activities Performed
+
+- Opened the Universal Forwarder configuration directory.
+- Created an `inputs.conf` file in:
+
+  `C:\Program Files\SplunkUniversalForwarder\etc\system\local`
+
+- Added the Sysmon Operational event channel.
+- Enabled XML rendering for detailed event data.
+- Assigned the events to the `main` index.
+- Restarted the Splunk Universal Forwarder to apply the configuration.
+
+### Configuration
+
+```ini
+[WinEventLog://Microsoft-Windows-Sysmon/Operational]
+disabled = 0
+renderXml = true
+index = main

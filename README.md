@@ -282,3 +282,20 @@ index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
 #### Notepad Process Creation Event in Splunk
 
 ![Notepad Search in Splunk](images/Notepad%20Search%20In%20Splunk.png)
+## 🎓 Skills Demonstrated
+
+- Splunk Enterprise Installation and Configuration
+- Splunk Universal Forwarder Deployment
+- Sysmon Event Collection
+- Windows Endpoint Monitoring
+- Windows Event Log Ingestion
+- TCP Port 9997 Configuration
+- `inputs.conf` Configuration
+- SPL Querying
+- Log Source Verification
+- Raw XML Event Analysis
+- Sysmon Event ID 1 Investigation
+- Process Creation Monitoring
+- SIEM Troubleshooting
+- Basic Threat Hunting
+- SOC Monitoring Workflow

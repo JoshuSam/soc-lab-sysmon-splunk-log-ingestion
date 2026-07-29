@@ -313,3 +313,9 @@ The lab demonstrated a complete SOC monitoring workflow:
 6. Investigate Sysmon Process Create events using SPL.
 
 Completing this lab strengthened my understanding of SIEM architecture, Windows event monitoring, endpoint telemetry, log forwarding, SPL queries, and basic threat hunting.
+## 📚 References
+
+- [Splunk Enterprise Documentation](https://docs.splunk.com/Documentation/Splunk)
+- [Splunk Universal Forwarder Documentation](https://docs.splunk.com/Documentation/Forwarder)
+- [Microsoft Sysmon Documentation](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+- [Splunk Windows Event Log Input Documentation](https://docs.splunk.com/Documentation/Splunk/latest/Data/MonitorWindowseventlogdata)

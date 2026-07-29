@@ -319,3 +319,6 @@ Completing this lab strengthened my understanding of SIEM architecture, Windows 
 - [Splunk Universal Forwarder Documentation](https://docs.splunk.com/Documentation/Forwarder)
 - [Microsoft Sysmon Documentation](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
 - [Splunk Windows Event Log Input Documentation](https://docs.splunk.com/Documentation/Splunk/latest/Data/MonitorWindowseventlogdata)
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.

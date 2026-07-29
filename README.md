@@ -299,3 +299,17 @@ index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
 - SIEM Troubleshooting
 - Basic Threat Hunting
 - SOC Monitoring Workflow
+## 📝 Key Takeaways
+
+This project provided practical experience in collecting Windows endpoint telemetry, forwarding logs with the Splunk Universal Forwarder, and analysing Sysmon events in Splunk Enterprise.
+
+The lab demonstrated a complete SOC monitoring workflow:
+
+1. Install and configure Splunk Enterprise.
+2. Enable receiving on TCP port 9997.
+3. Install and configure the Splunk Universal Forwarder.
+4. Configure Sysmon log collection through `inputs.conf`.
+5. Verify successful log ingestion.
+6. Investigate Sysmon Process Create events using SPL.
+
+Completing this lab strengthened my understanding of SIEM architecture, Windows event monitoring, endpoint telemetry, log forwarding, SPL queries, and basic threat hunting.

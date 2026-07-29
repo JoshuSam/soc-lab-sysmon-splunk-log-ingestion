@@ -238,3 +238,47 @@ index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
 #### Sysmon Events in Splunk
 
 ![Sysmon Events in Splunk](images/Sysmon%20Events%20In%20Splunk.png)
+## 🧪 Task 6 – Sysmon Process Creation Investigation
+
+### Objective
+
+Generate and investigate a Sysmon Process Create event in Splunk using Notepad as the test process.
+
+### Activities Performed
+
+- Opened Notepad on the Windows 11 host to generate a new process event.
+- Waited for the Sysmon event to be forwarded and indexed.
+- Searched the Sysmon Operational source in Splunk.
+- Identified the Notepad process inside the raw XML event.
+- Confirmed that the event was recorded as Sysmon Event ID **1**.
+- Reviewed process-related fields including:
+  - Image
+  - Process ID
+  - Parent Process ID
+  - Parent Image
+  - Command Line
+  - User
+  - Hashes
+
+### SPL Query
+
+```spl
+index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
+| rex field=_raw "<EventID>(?<EventID>\d+)</EventID>"
+| search EventID=1 "*notepad.exe*"
+```
+
+### Skills Demonstrated
+
+- Sysmon Event ID 1 Analysis
+- Process Creation Investigation
+- SPL Field Extraction
+- Raw XML Event Analysis
+- Endpoint Activity Monitoring
+- Basic Threat Hunting
+
+### Screenshot
+
+#### Notepad Process Creation Event in Splunk
+
+![Notepad Search in Splunk](images/Notepad%20Search%20In%20Splunk.png)

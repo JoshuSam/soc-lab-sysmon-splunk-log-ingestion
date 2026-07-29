@@ -89,3 +89,28 @@ Install Splunk Enterprise on Windows 11 and verify that the SIEM platform is acc
 #### Splunk Enterprise Home Page
 
 ![Splunk Enterprise Home Page](images/Splunk%20Home%20Page.png)
+## 🔌 Task 2 – Configure Splunk Receiving Port
+
+### Objective
+
+Configure Splunk Enterprise to receive forwarded data from the Splunk Universal Forwarder.
+
+### Activities Performed
+
+- Opened **Settings → Forwarding and Receiving** in Splunk Enterprise.
+- Configured a new receiving port.
+- Enabled TCP port **9997** for forwarded event data.
+- Verified that the receiving port was successfully created and active.
+
+### Skills Demonstrated
+
+- Splunk Receiver Configuration
+- Forwarder-to-Indexer Communication
+- TCP Port Configuration
+- SIEM Data Ingestion Setup
+
+### Screenshot
+
+#### Receiving Port 9997 Enabled
+
+![Splunk Receiving Port 9997 Enabled](images/9997%20Enabled.png)

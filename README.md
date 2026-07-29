@@ -63,10 +63,9 @@ Install Splunk Enterprise on Windows 11 and verify that the SIEM platform is acc
 ### Activities Performed
 
 - Installed Splunk Enterprise on the Windows 11 host.
-- Used the default installation directory.
 - Created the Splunk administrator account.
 - Confirmed that the installation completed successfully.
-- Accessed the Splunk login page through `http://localhost:8000`.
+- Accessed Splunk through `http://localhost:8000`.
 - Signed in and verified that the Splunk Enterprise home page loaded correctly.
 
 ### Skills Demonstrated

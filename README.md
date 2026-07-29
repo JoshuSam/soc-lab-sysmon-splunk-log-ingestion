@@ -32,3 +32,25 @@ The primary objectives of this lab were to:
 | Transport Port | TCP 9997 |
 | Configuration | `inputs.conf` |
 | Search Language | Splunk Processing Language (SPL) |
+<a id="lab-architecture"></a>
+
+## 🏗️ Lab Architecture
+
+```text
+Windows 11 Endpoint
+        │
+        │  Sysmon generates endpoint telemetry
+        ▼
+Microsoft-Windows-Sysmon/Operational
+        │
+        │  Collected by Splunk Universal Forwarder
+        ▼
+Splunk Universal Forwarder
+        │
+        │  TCP 9997
+        ▼
+Splunk Enterprise
+        │
+        ▼
+Search, Filtering and Event Analysis
+```

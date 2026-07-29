@@ -154,18 +154,18 @@ Install the Splunk Universal Forwarder on Windows and configure it to send Sysmo
 
 ### Objective
 
-Configure the Splunk Universal Forwarder to collect events from the Sysmon Operational log and send them to Splunk Enterprise.
+Configure the Splunk Universal Forwarder to collect events from the Sysmon Operational log and forward them to Splunk Enterprise.
 
 ### Activities Performed
 
-- Opened the Universal Forwarder configuration directory.
-- Created an `inputs.conf` file in:
+- Opened the Splunk Universal Forwarder configuration directory:
 
   `C:\Program Files\SplunkUniversalForwarder\etc\system\local`
 
+- Created an `inputs.conf` file.
 - Added the Sysmon Operational event channel.
-- Enabled XML rendering for detailed event data.
-- Assigned the events to the `main` index.
+- Enabled XML rendering for detailed event information.
+- Configured the events to be stored in the `main` index.
 - Restarted the Splunk Universal Forwarder to apply the configuration.
 
 ### Configuration
@@ -175,3 +175,19 @@ Configure the Splunk Universal Forwarder to collect events from the Sysmon Opera
 disabled = 0
 renderXml = true
 index = main
+```
+
+### Skills Demonstrated
+
+- Splunk Input Configuration
+- Sysmon Event Collection
+- Windows Event Log Monitoring
+- XML Event Rendering
+- Universal Forwarder Configuration
+- SIEM Log Ingestion Setup
+
+### Screenshot
+
+#### Sysmon `inputs.conf` Configuration
+
+![Sysmon inputs.conf Configuration](images/Inputs.conf.png)

@@ -20,3 +20,15 @@ The primary objectives of this lab were to:
 - Analyse raw Sysmon XML events in Splunk.
 - Filter and investigate Sysmon Process Create events, including Event ID **1**.
 - Build practical experience with endpoint telemetry, log ingestion, and basic SOC monitoring workflows.
+## 🛠️ Technologies Used
+
+| Category | Technology |
+|----------|------------|
+| Host Operating System | Windows 11 |
+| Endpoint Telemetry | Sysmon |
+| SIEM Platform | Splunk Enterprise |
+| Log Forwarding | Splunk Universal Forwarder |
+| Windows Log Source | Microsoft-Windows-Sysmon/Operational |
+| Transport Port | TCP 9997 |
+| Configuration | `inputs.conf` |
+| Search Language | Splunk Processing Language (SPL) |

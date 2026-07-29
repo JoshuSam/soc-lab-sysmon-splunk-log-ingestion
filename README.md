@@ -7,6 +7,25 @@ This project demonstrates a hands-on Security Operations Center (SOC) lab focuse
 Sysmon was used to generate detailed Windows process and system activity logs. Splunk Universal Forwarder was then configured to send the Sysmon Operational event channel to Splunk Enterprise through receiving port 9997.
 
 The project demonstrates endpoint log collection, forwarder configuration, Windows event ingestion, XML event analysis, and basic threat-detection workflows using Splunk.
+## 📑 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Objectives](#-objectives)
+- [Technologies Used](#️-technologies-used)
+- [Lab Architecture](#lab-architecture)
+- [Task 1 – Splunk Enterprise Setup](#️-task-1--splunk-enterprise-setup)
+- [Task 2 – Configure Splunk Receiving Port](#-task-2--configure-splunk-receiving-port)
+- [Task 3 – Splunk Universal Forwarder Setup](#-task-3--splunk-universal-forwarder-setup)
+- [Task 4 – Sysmon Event Collection Configuration](#️-task-4--sysmon-event-collection-configuration)
+- [Task 5 – Verify Sysmon Log Ingestion](#-task-5--verify-sysmon-log-ingestion)
+- [Task 6 – Sysmon Process Creation Investigation](#-task-6--sysmon-process-creation-investigation)
+- [Skills Demonstrated](#-skills-demonstrated)
+- [Key Takeaways](#-key-takeaways)
+- [References](#-references)
+- [License](#-license)
+- [Author](#-author)
+- [Future Improvements](#-future-improvements)
+- [Project Outcome](#-project-outcome)
 ## 🎯 Objectives
 
 The primary objectives of this lab were to:
